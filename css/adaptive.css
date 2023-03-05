@@ -1,0 +1,151 @@
+
+@media screen and (max-width: 1439px) {
+    .main .container{
+        display: flex;
+    }
+
+}
+/*1024-1229*/
+@media screen and (max-width: 1229px) {
+
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 1024px;
+    }
+    .advantages-image{
+        width: 400px;
+    }
+    .advantages-image img{
+        width: 100%;
+    }
+    .products-wrap{
+        justify-content: center;
+    }
+    .product{
+        margin: 12px;
+    }
+
+}
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+    .menu ul{
+        width: 420px;
+    }
+   .main .container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   .advantages-image{
+       order: 1;
+   }
+   .advantages-info{
+       order: 2;
+   }
+   .main{
+       padding-top: 70px;
+   }
+   .advantages-info h1{
+       text-align: center;
+   }
+   .advantages-info{
+       margin-right: 0;
+   }
+   .main-action{
+       width: 600px;
+       text-align: center;
+   }
+   .order{
+       padding-top: 60px;
+       overflow: hidden;
+       position: relative;
+   }
+   .order .container{
+       justify-content: center;
+   }
+    .order-image{
+        position: absolute;
+        right: calc(50% - 400px);
+    }
+    .order-image img{
+        position: relative;
+        z-index: -1;
+
+    }
+}
+/*425-767*/
+@media screen and (max-width: 767px) {
+    .container{
+        justify-content: center;
+    }
+    .main .container{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .rights{
+        margin-left: 0;
+    }
+    .header .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 390px;
+    }
+    .menu{
+        order: 3;
+        margin-top: 15px;
+        flex-basis: 100%;
+    }
+    .menu ul{
+        max-width: 390px;
+    }
+    .cart{
+        margin-left: 25px;
+    }
+    .advantages-info{
+        max-width: 390px;
+    }
+    .advantages-wrap{
+        max-width: 306px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .order .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .order-text-title{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .order-description{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .order-form{
+        flex-basis: 100%;
+        margin-left: 0;
+    }
+    .advantages-image{
+        width: 400px;
+    }
+    .advantages-image img{
+        width: 100%;
+    }
+    .main{
+        max-width: 400px;
+    }
+}
+/*375-424*/
+@media screen and (max-width: 424px) {
+
+}
+/*320-374*/
+@media screen and (max-width: 374px) {
+
+}
